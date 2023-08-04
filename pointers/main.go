@@ -24,8 +24,8 @@ func main() {
 	sum(1, 2, 3, 4)
 	sum(5, 4)
 
-	//anynomous function
+	//anonymous function
 	func() {
-		fmt.Println("inside anynomous function")
+		fmt.Println("inside anonymous function")
 	}()
 }
