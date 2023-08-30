@@ -4,6 +4,8 @@ import (
 	"testing"
 )
 
+// TDD and BDD
+// TDD- testing code first and behaviour driven development ginkgo
 func TestAdd(t *testing.T) {
 	got := Add(5, 4)
 	want := 9
